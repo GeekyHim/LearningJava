@@ -22,7 +22,7 @@ public class StarPlusOdd {
                 System.out.println();
             }
         }
-        else {System.err.println("Enter Odd Number...");}
+        else {System.err.println("Error : Enter Odd Number...");}
         
         scan.close();
     }

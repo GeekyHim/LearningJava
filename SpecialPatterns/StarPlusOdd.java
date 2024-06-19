@@ -26,4 +26,4 @@ public class StarPlusOdd {
         
         scan.close();
     }
-}
+}// would be easier if you would just use sout if j || i is = mid under the two loops and else print space BSSSS

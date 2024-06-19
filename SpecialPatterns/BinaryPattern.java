@@ -1,7 +1,12 @@
 package SpecialPatterns;
 
 import java.util.Scanner;
-
+// to print
+// 1 
+// 0 1
+// 1 0 1
+// 0 1 0 1
+// 1 0 1 0 1
 public class BinaryPattern {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

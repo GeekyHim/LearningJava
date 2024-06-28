@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class MaxElement {
+public class SecondLargestInt {
     public static void main(String[] args) {
         System.out.print("Enter Lenght of Array : ");
         Scanner scan = new Scanner(System.in);
@@ -12,18 +12,21 @@ public class MaxElement {
             System.out.print("Enter Array Element " +  (i+1)+ " : ");
             arr[i]=scan.nextInt();
         }
-        int ele = arr[0]; // conventionally to store max value, name mx is used. 
-        // can also put 
-        //Integer.MIN_VALUE;
+        int ele = arr[0]; 
         
         for (int i = 0; i < len; i++) {
             if(arr[i]>ele){
                 ele = arr[i];
-                // can also use Math.max(ele,arr[i])
             }
         }
-        System.out.print("Max Element : "+ele);
+        int mx = arr[0];
+        for (int i = 0; i < len; i++) {
+            if(arr[i]== ele) continue;
+            if(mx<arr[i]) mx = arr[i]; 
+        }
+        System.out.println("Max Element : "+ele);
+        System.out.print("Second Max Element : "+mx);
         scan.close();
 
-    }    
+    }
 }

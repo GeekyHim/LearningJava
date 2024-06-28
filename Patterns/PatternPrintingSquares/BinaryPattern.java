@@ -1,4 +1,4 @@
-package SpecialPatterns;
+package PatternPrintingSquares;
 
 import java.util.Scanner;
 // to print

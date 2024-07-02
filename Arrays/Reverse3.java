@@ -5,7 +5,8 @@ public class Reverse3 {
         int [] arr = {10,20,30,40,50,60,70,80};
         int n = arr.length;
         int i = 0;
-        int j = n-1;
+        int j = n-1; // strat and end ko manipulate karke
+        // i can change how stuff reverses
         while(i<=j){
             swap(arr,i,j);
             i++;

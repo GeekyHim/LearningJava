@@ -6,8 +6,6 @@ public class DutchFlagAlgorithm {
         int mid = 0, lo = 0, hi=n-1;
         while(mid<=hi){
             if(arr[mid]==0){
-                // swap(arr[lo],arr[mid]); 
-                // --------> WONT WORK PASS ARRAY ALSO <-------
                 int temp = arr[lo];
                 arr[lo]=arr[mid];
                 arr[mid]=temp;
@@ -15,7 +13,6 @@ public class DutchFlagAlgorithm {
             }
             else if(arr[mid]==1) mid++;
             else{
-                // swap(arr[mid],arr[hi]);
                 int temp = arr[mid];
                 arr[mid]=arr[hi];
                 arr[hi]=temp;
@@ -26,9 +23,5 @@ public class DutchFlagAlgorithm {
             System.out.print(arr[i]+" ");
         }
     }
-    // public static void swap(int x, int y){
-    //     int temp= x;
-    //     x=y;
-    //     y=temp;
-    // }
 }
+

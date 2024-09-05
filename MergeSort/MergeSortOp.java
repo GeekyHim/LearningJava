@@ -1,6 +1,6 @@
 package MergeSort;
 
-public class MergeSort {
+public class MergeSortOp {
 
     public static void print(int[] arr) {
         for(int x : arr){
@@ -11,7 +11,7 @@ public class MergeSort {
     public static void merge(int[]a,int[]b,int[]c) {
         int i=0,j=0,k=0;
         while(i<a.length && j<b.length){
-            if(a[i]<b[j]) c[k++] = a[i++];
+            if(a[i]<=b[j]) c[k++] = a[i++];
             else c[k++] = b[j++];
         }
         while(i<a.length) c[k++] = a[i++];
@@ -35,7 +35,8 @@ public class MergeSort {
         MergeSortProg(b);
 
         merge(a, b, arr);
-
+        // delete a and b to make SC = O(n)
+        a = null; b = null;
     }
 
     public static void main(String[] args) {

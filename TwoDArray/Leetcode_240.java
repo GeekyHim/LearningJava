@@ -9,7 +9,7 @@ public class Leetcode_240 {
               else if(arr[i][j]>target) j--;  //iske niche vale ke pass jane ki need nhi hai vo sab bde hai, go left
               else i++;
               // means arr[i][j]<target means iske left me chote elements me hi hogs
-              // go down 
+              // go down :D
             }
             return false;
         }

@@ -11,6 +11,7 @@ public class TakingInput {
         sc.nextLine(); // to consume the /n left by sc.next
         System.out.print("Now enter a sentence:");
         String str2 = sc.nextLine();
+        // puri line input lega
         System.out.println(str);
         System.out.println(str2);
         sc.close();

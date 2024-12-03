@@ -1,7 +1,5 @@
 package strings;
-
 import java.util.Scanner;
-
 public class CountVowels {
     public static boolean isVowel(char ch){
         if(ch=='a'||ch=='A') return true;
@@ -21,5 +19,6 @@ public class CountVowels {
             if(isVowel(ch)==true) vowels++;
             }
         System.out.print("Entered String: "+s+"\nVowels: "+vowels);
+        scn.close();
     }
 }

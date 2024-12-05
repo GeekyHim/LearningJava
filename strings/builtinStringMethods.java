@@ -1,5 +1,7 @@
 package strings;
 public class builtinStringMethods {
+    // str.charAT()
+    // str.length()
     public static void main(String[] args) {
         String s = "Himanshu Gupta";
         System.out.println(s.charAt(4));

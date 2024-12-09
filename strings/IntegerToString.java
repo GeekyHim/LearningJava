@@ -15,6 +15,6 @@ public class IntegerToString {
         System.out.println(Double.toString(d));
         String s2 = Double.toString(d);
         System.out.println(s2.length());
-
+        sc.close();
     }
 }

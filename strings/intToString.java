@@ -8,6 +8,6 @@ public class intToString {
        // Cannot cast from int to String
         String s =  "" + n;
         System.out.println(s);
-        
+        sc.close();
     }
 }

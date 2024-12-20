@@ -12,5 +12,7 @@ public class EvenPosition {
             else ans+=s.charAt(i); 
         }
         System.out.println(ans);
+
+        scn.close();
     }
 }

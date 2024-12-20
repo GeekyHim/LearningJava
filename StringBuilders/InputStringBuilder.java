@@ -17,5 +17,7 @@ public class InputStringBuilder {
         StringBuilder sb2 = new StringBuilder(s);
         System.out.println(sb2);
 
+        scn.close();
+
     }
 }

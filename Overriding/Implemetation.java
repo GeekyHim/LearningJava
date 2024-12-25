@@ -20,7 +20,7 @@ public class Implemetation {
         Parent otherParent = new Child();
         otherParent.inheritence();
         otherParent.marry();
-        //functions is binded WRT the instace of object created/active rn
+        //functions is binded WRT the instace of object created/active rn/runtime object
     }
 
 }

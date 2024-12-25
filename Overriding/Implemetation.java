@@ -22,5 +22,4 @@ public class Implemetation {
         otherParent.marry();
         //functions is binded WRT the instace of object created/active rn/runtime object
     }
-
 }

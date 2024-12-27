@@ -10,5 +10,6 @@ public class Implementation3 {
         a.execute(p);
         //TRUE POLYMOTPHISM 
         // ek hi method me different argument dene se different kaam
+        // ek hi method behaves in different ways
     }
 }

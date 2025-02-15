@@ -1,5 +1,3 @@
-// FAILED ATTEMPT
-
 package StringBuilders;
 import java.util.Scanner;
 
@@ -32,9 +30,6 @@ public class ReverseWords {
         }
         last = sb.length()-1;
         reverdedString = reverdedString + obj.reversedWord(start,last,sb);
-
-        // one solution is to run reverseWord one extra time at end
-
        
         System.out.println(reverdedString);
     }

@@ -1,0 +1,6 @@
+#vs code settings
+.vscode
+
+# dist files
+.dist
+

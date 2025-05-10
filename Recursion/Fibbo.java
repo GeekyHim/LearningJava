@@ -8,7 +8,7 @@ public class Fibbo {
         int ans = fib(num-1) + fib(num-2);
         return ans;
     }
-// finding the nth fibbonacci number using recurrsion
+// finding the nth fibbonacci number using recurrsion "Leetcode 509"
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.print("Eneter The Number of place whose value u want : ");

@@ -1,6 +1,6 @@
 package Recursion;
 import java.util.Scanner;
-public class Power {
+public class Power {// TC = O(pow)
     public static double powerFunc(double base, int pow){
         if (pow==0) return 1;
         if (pow==1) return base;

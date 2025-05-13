@@ -35,3 +35,8 @@ public class mazePath {
         scn.close();
     }
 }
+
+// METHOD 3
+// if(row == m and col ==n) return 1;
+// if(row > m or col > n) return 0; (index out of bound ho gya toh vapis)
+// is method me basically hum down and right ja rhe hai continuously jab tak we dont hit the target or out of bound na ho jaye

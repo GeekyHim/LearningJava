@@ -10,6 +10,9 @@ public class Sum1toN {
         // XYZ = 5 + 4 + 3 + 2 + 1 + 0(base case)
         return n;
 
+        // More Compact 
+        // return n + totalSum(n-1);
+
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

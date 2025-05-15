@@ -10,7 +10,7 @@ public class Subset2 {
         }
         
         char ch = str.charAt(index);
-        printSubset(index+1,str,ans+ch);
+        printSubset(index+1,str,ans+ch);     
         printSubset(index+1,str,ans);
     }
 

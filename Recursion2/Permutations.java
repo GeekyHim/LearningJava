@@ -11,7 +11,7 @@ public class Permutations {
             return;
         }
 
-        for(int i=0;i<s.length();i++){
+        for(int i=0;i<s.length();i++){ // unti calls jitni possibilities --> hence variable calls
             char ch = s.charAt(i);
             String leftString = s.substring(0, i);
             String righString = s.substring(i+1);

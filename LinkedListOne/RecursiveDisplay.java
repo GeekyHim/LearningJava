@@ -5,6 +5,12 @@ public class RecursiveDisplay {
         System.out.println(head.data);
         printLLRecursive(head.next);
         }
+
+        public static void reversePrintLLRecursive(Node head){
+        if(head==null) return;
+        printLLRecursive(head.next);
+        System.out.println(head.data);
+        }
     public static void main(String[] args) {
         Node n1 = new Node(10);
         Node n2 = new Node(20);

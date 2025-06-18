@@ -48,5 +48,28 @@ public class MyLinkedListDS {// user defined data Structure
         }
         size++;
     }
+
+    void insertAt(int index, int data){
+        if(index==0) { // to make sure start me insert ho head var  maintain rkhne ke liye
+            addAtStart(data);
+            return;
+        }
+        if(index==size){ // even tho iski zarurat nhi thi, lekin phir tail var nhi maintain hogi 
+            addAtLast(data);
+            return;
+        }
+        if(index>size){
+            System.out.println("Invalid Index Given!!!");
+            return;
+        }
+        Node temp = new Node(data);
+        Node tracker = head;
+        for(int i=0;i<index-1;i++){
+            tracker = tracker.next;
+        }
+        temp.next = tracker.next;
+        tracker.next = temp;
+        size++;
+    }
 }
 

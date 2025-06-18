@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>Java with DSA 🚀</h1>
-    <p>Welcome to the <strong>Java with DSA</strong> repository!</p>
+    <h1>DSA and Java 🚀</h1>
+    <p>Welcome to the <strong>DSA and Java</strong> repository!</p>
     <p>
         This repository is my personal space for exploring, practicing, and improving my Java programming and DSA skills. 
         As a Computer Science enthusiast and an aspiring developer, I'm diving deep into Java and Data Structures 
